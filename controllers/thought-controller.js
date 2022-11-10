@@ -11,7 +11,7 @@ module.exports = {
         Thought.findById(params.thoughtId)
             .then(thoughtData =>
                 !thoughtData
-                    ? res.status(404).json({ message: "Invalid thoughtß!" })
+                    ? res.status(404).json({ message: "Invalid thought!" })
                     : res.json({ message:'success',thoughtData })
             )
             .catch(err => res.status(500).json(err));
