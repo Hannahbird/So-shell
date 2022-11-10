@@ -1,0 +1,26 @@
+{
+  "name": "so-shell",
+  "version": "1.0.0",
+  "description": "Backend API for social network 'So-Shell'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hannahbird/So-shell.git"
+  },
+  "keywords": [],
+  "author": "Hannah Brownson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hannahbird/So-shell/issues"
+  },
+  "homepage": "https://github.com/Hannahbird/So-shell#readme",
+  "dependencies": {
+    "dayjs": "^1.11.6",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  }
+}
